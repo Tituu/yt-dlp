@@ -1,0 +1,13 @@
+{
+  "name": "youtube-downloader",
+  "version": "1.0.0",
+  "main": "api/getVideo.js",
+  "type": "module",
+  "scripts": {
+    "start": "node api/getVideo.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "ytdl-core": "^4.11.4"
+  }
+}
